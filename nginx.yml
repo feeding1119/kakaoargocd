@@ -13,7 +13,7 @@ spec:                 # 여기부터 rs
     spec:             # 여기부터 컨테이너
       containers:
       - name: mynginxctn-blue    # 컨테이너의 이름
-        image: brian24/kakaodev:blue
+        image: feed1119/kakaodev:blue
         resources:
           limits:
             memory: "32Mi"
@@ -39,7 +39,7 @@ spec:                 # 여기부터 rs
     spec:             # 여기부터 컨테이너
       containers:
       - name: mynginxctn-green    # 컨테이너의 이름
-        image: brian24/kakaodev:green
+        image: feed1119/kakaodev:green
         resources:
           limits:
             memory: "32Mi"
